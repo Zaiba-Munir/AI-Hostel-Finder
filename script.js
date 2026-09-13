@@ -465,21 +465,11 @@ function scoreHostel(hostel, intent) {
    never breaks in a demo.
    ============================================================ */
 
-// Your backend server's address. If you deploy the backend somewhere
-// (Render, Railway, etc.) instead of running it locally, change this
-// to that server's URL.
-const BACKEND_URL = "http://localhost:3000/api/parse-query";
+// Backend server address. Deployed on Railway, so it's reachable from
+// anywhere (not just localhost) — no dev/prod branching needed.
+const BACKEND_URL = "https://ai-hostel-finder-production.up.railway.app/api/parse-query";
 
 async function parseQueryWithAI(rawQuery) {
-  // The backend only runs on YOUR laptop (localhost:3000). When the site is
-  // opened anywhere else (GitHub Pages, mobile, etc.) that backend is not
-  // reachable, so skip straight to the reliable rule-based parser instead
-  // of wasting time on a network call that can only fail there.
-  const isLocalDev = location.hostname === "localhost" || location.hostname === "127.0.0.1";
-  if (!isLocalDev) {
-    return parseQuery(rawQuery);
-  }
-
   try {
     const cityList = [...new Set(HOSTELS.map(h => h.city))].join(", ");
     const uniList = [...new Set(HOSTELS.map(h => h.nearby_university))].join(", ");
