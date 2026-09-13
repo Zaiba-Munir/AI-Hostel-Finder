@@ -415,21 +415,29 @@ function scoreHostel(hostel, intent) {
 
 /* ============================================================
    REAL AI-POWERED QUERY UNDERSTANDING (via our own backend)
-   Replaces the plain rule-based parseQuery() above with a real
-   LLM call, but routed through our own small backend server
-   (server.js) instead of calling Groq directly from the browser.
-   This keeps the Groq API key hidden on the server and out of
-   the public GitHub repo. If the backend is unreachable for any
-   reason (not started, wrong port, offline), this silently falls
-   back to the rule-based parseQuery() so the app never breaks.
+   The frontend never talks to Groq directly — it calls our own
+   backend server (server.js), which holds the real Groq key in
+   a .env file that never reaches the browser or GitHub. If the
+   backend isn't running, or the call fails for any reason, this
+   silently falls back to the rule-based parseQuery() so the app
+   never breaks in a demo.
    ============================================================ */
 
-// Address of our own local backend server (see backend/server.js).
-// When you deploy this app for real, change this to your deployed
-// backend's URL instead of localhost.
+// Your backend server's address. If you deploy the backend somewhere
+// (Render, Railway, etc.) instead of running it locally, change this
+// to that server's URL.
 const BACKEND_URL = "http://localhost:3000/api/parse-query";
 
 async function parseQueryWithAI(rawQuery) {
+  // The backend only runs on YOUR laptop (localhost:3000). When the site is
+  // opened anywhere else (GitHub Pages, mobile, etc.) that backend is not
+  // reachable, so skip straight to the reliable rule-based parser instead
+  // of wasting time on a network call that can only fail there.
+  const isLocalDev = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+  if (!isLocalDev) {
+    return parseQuery(rawQuery);
+  }
+
   try {
     const cityList = [...new Set(HOSTELS.map(h => h.city))].join(", ");
     const uniList = [...new Set(HOSTELS.map(h => h.nearby_university))].join(", ");
@@ -443,6 +451,7 @@ async function parseQueryWithAI(rawQuery) {
     if (!response.ok) throw new Error("Backend error " + response.status);
 
     const parsed = await response.json();
+    if (parsed.error) throw new Error(parsed.error);
 
     return {
       budget: parsed.budget || null,
@@ -452,7 +461,7 @@ async function parseQueryWithAI(rawQuery) {
       facilities: Array.isArray(parsed.facilities) ? parsed.facilities : []
     };
   } catch (err) {
-    console.warn("AI query parsing failed (backend not running?), falling back to rule-based search:", err);
+    console.warn("Backend/AI call failed, falling back to rule-based search:", err);
     return parseQuery(rawQuery); // backend not running, network issue, etc. — fail safe, not broken
   }
 }
@@ -535,10 +544,10 @@ function showLoadingThenRender() {
   gridEl.innerHTML = Array.from({ length: 3 }).map(() => '<div class="skeleton-card"></div>').join("");
 }
 
-// Runs a full natural-language search: shows a loading state, asks our
-// backend (or falls back to the rule-based parser) to understand the
-// query, then renders. Filter/sort dropdown changes do NOT call this —
-// they reuse activeIntent and re-render instantly.
+// Runs a full natural-language search: shows a loading state, asks Claude
+// (or falls back to the rule-based parser) to understand the query, then
+// renders. Filter/sort dropdown changes do NOT call this — they reuse
+// activeIntent and re-render instantly.
 async function runSearch(queryText) {
   activeQuery = queryText;
   currentLang = detectLanguage(queryText);
