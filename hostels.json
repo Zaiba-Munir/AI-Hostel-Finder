@@ -1,0 +1,2899 @@
+[
+  {
+    "id": 1,
+    "name": "Al-Madina Boys Hostel",
+    "city": "Islamabad",
+    "area": "H-11",
+    "nearby_university": "NUST",
+    "gender": "Boys",
+    "rent_pkr": 15000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 2,
+    "name": "Green Valley Hostel",
+    "city": "Islamabad",
+    "area": "I-9",
+    "nearby_university": "FAST-NUCES",
+    "gender": "Boys",
+    "rent_pkr": 12000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 3,
+    "name": "Roses Girls Hostel",
+    "city": "Islamabad",
+    "area": "F-8",
+    "nearby_university": "QAU",
+    "gender": "Girls",
+    "rent_pkr": 20000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Gym",
+      "Security Guard"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Capital Comfort Hostel",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "nearby_university": "PMAS-AAUR",
+    "gender": "Boys",
+    "rent_pkr": 10000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 5,
+    "name": "Al-Noor Boys Hostel",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "nearby_university": "NUML",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": 6,
+    "name": "Elite Residency",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "nearby_university": "UMT",
+    "gender": "Boys",
+    "rent_pkr": 18000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Gym"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "name": "Sitara Girls Hostel",
+    "city": "Lahore",
+    "area": "Model Town",
+    "nearby_university": "FAST-NUCES Lahore",
+    "gender": "Girls",
+    "rent_pkr": 22000,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "name": "Punjab Students Hostel",
+    "city": "Lahore",
+    "area": "Canal Road",
+    "nearby_university": "University of the Punjab",
+    "gender": "Boys",
+    "rent_pkr": 8000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.0
+  },
+  {
+    "id": 9,
+    "name": "Comfort Zone Hostel",
+    "city": "Lahore",
+    "area": "DHA Phase 5",
+    "nearby_university": "LUMS",
+    "gender": "Boys",
+    "rent_pkr": 25000,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Parking"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 10,
+    "name": "Karachi Students Lodge",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "nearby_university": "NED University",
+    "gender": "Boys",
+    "rent_pkr": 14000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 11,
+    "name": "Sea View Girls Hostel",
+    "city": "Karachi",
+    "area": "Clifton",
+    "nearby_university": "IBA Karachi",
+    "gender": "Girls",
+    "rent_pkr": 28000,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Security Guard"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 12,
+    "name": "Al-Falah Hostel",
+    "city": "Karachi",
+    "area": "Gulistan-e-Johar",
+    "nearby_university": "FAST-NUCES Karachi",
+    "gender": "Boys",
+    "rent_pkr": 11000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 13,
+    "name": "University Town Hostel",
+    "city": "Peshawar",
+    "area": "University Town",
+    "nearby_university": "University of Peshawar",
+    "gender": "Boys",
+    "rent_pkr": 9500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 14,
+    "name": "GIKI Nearby Hostel",
+    "city": "Topi (Swabi)",
+    "area": "Near GIKI",
+    "nearby_university": "GIKI",
+    "gender": "Boys",
+    "rent_pkr": 13000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 15,
+    "name": "Sargodha Students Home",
+    "city": "Sargodha",
+    "area": "University Road",
+    "nearby_university": "University of Sargodha",
+    "gender": "Girls",
+    "rent_pkr": 10000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler",
+      "Security Guard"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 16,
+    "name": "Faisalabad Boys Hostel",
+    "city": "Faisalabad",
+    "area": "Jail Road",
+    "nearby_university": "UAF",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 17,
+    "name": "Multan Comfort Hostel",
+    "city": "Multan",
+    "area": "Bosan Road",
+    "nearby_university": "BZU",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 18,
+    "name": "Bahria Town Girls Hostel",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "nearby_university": "Bahria University",
+    "gender": "Girls",
+    "rent_pkr": 24000,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym",
+      "Security Guard"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 19,
+    "name": "Air University Nearby Hostel",
+    "city": "Islamabad",
+    "area": "E-9",
+    "nearby_university": "Air University",
+    "gender": "Boys",
+    "rent_pkr": 16000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 20,
+    "name": "COMSATS Boys Hostel",
+    "city": "Islamabad",
+    "area": "Park Road",
+    "nearby_university": "COMSATS University",
+    "gender": "Boys",
+    "rent_pkr": 13500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.0
+  },
+  {
+    "name": "Wisdom Boys Hostel",
+    "city": "Islamabad",
+    "area": "G-9",
+    "nearby_university": "COMSATS University",
+    "gender": "Boys",
+    "rent_pkr": 11000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.7,
+    "id": 21
+  },
+  {
+    "name": "Margalla View Hostel",
+    "city": "Islamabad",
+    "area": "F-10",
+    "nearby_university": "QAU",
+    "gender": "Boys",
+    "rent_pkr": 17000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV"
+    ],
+    "rating": 4.3,
+    "id": 22
+  },
+  {
+    "name": "Serene Girls Residency",
+    "city": "Islamabad",
+    "area": "F-7",
+    "nearby_university": "NUST",
+    "gender": "Girls",
+    "rent_pkr": 26000,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Parking",
+      "Security Guard"
+    ],
+    "rating": 4.8,
+    "id": 23
+  },
+  {
+    "name": "Pine View Hostel",
+    "city": "Islamabad",
+    "area": "H-8",
+    "nearby_university": "Air University",
+    "gender": "Boys",
+    "rent_pkr": 12500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Study Room"
+    ],
+    "rating": 3.6,
+    "id": 24
+  },
+  {
+    "name": "Iqra Girls Hostel",
+    "city": "Rawalpindi",
+    "area": "Committee Chowk",
+    "nearby_university": "Fauji Foundation University",
+    "gender": "Girls",
+    "rent_pkr": 13000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Security Guard"
+    ],
+    "rating": 3.9,
+    "id": 25
+  },
+  {
+    "name": "Cadet Boys Hostel",
+    "city": "Rawalpindi",
+    "area": "Adiala Road",
+    "nearby_university": "Arid Agriculture University",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.1,
+    "id": 26
+  },
+  {
+    "name": "Askari Students Hostel",
+    "city": "Rawalpindi",
+    "area": "Cantt",
+    "nearby_university": "NUML",
+    "gender": "Boys",
+    "rent_pkr": 14500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.0,
+    "id": 27
+  },
+  {
+    "name": "Liberty Boys Hostel",
+    "city": "Lahore",
+    "area": "Liberty Market",
+    "nearby_university": "Punjab University",
+    "gender": "Boys",
+    "rent_pkr": 10000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.4,
+    "id": 28
+  },
+  {
+    "name": "GC Students Hostel",
+    "city": "Lahore",
+    "area": "Wahdat Road",
+    "nearby_university": "GC University Lahore",
+    "gender": "Boys",
+    "rent_pkr": 9500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.2,
+    "id": 29
+  },
+  {
+    "name": "Emporium Girls Hostel",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "nearby_university": "LUMS",
+    "gender": "Girls",
+    "rent_pkr": 27000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Security Guard"
+    ],
+    "rating": 4.9,
+    "id": 30
+  },
+  {
+    "name": "Nishtar Boys Hostel",
+    "city": "Lahore",
+    "area": "Township",
+    "nearby_university": "UET Lahore",
+    "gender": "Boys",
+    "rent_pkr": 11500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 3.8,
+    "id": 31
+  },
+  {
+    "name": "Riwaz Girls Hostel",
+    "city": "Lahore",
+    "area": "Garden Town",
+    "nearby_university": "Kinnaird College",
+    "gender": "Girls",
+    "rent_pkr": 19000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Gym",
+      "Security Guard"
+    ],
+    "rating": 4.4,
+    "id": 32
+  },
+  {
+    "name": "Al-Rehman Boys Hostel",
+    "city": "Lahore",
+    "area": "Ferozepur Road",
+    "nearby_university": "UMT",
+    "gender": "Boys",
+    "rent_pkr": 13000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 3.7,
+    "id": 33
+  },
+  {
+    "name": "Zamzama Girls Hostel",
+    "city": "Karachi",
+    "area": "Zamzama",
+    "nearby_university": "IBA Karachi",
+    "gender": "Girls",
+    "rent_pkr": 25000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym",
+      "Parking",
+      "Security Guard"
+    ],
+    "rating": 4.7,
+    "id": 34
+  },
+  {
+    "name": "Malir Boys Hostel",
+    "city": "Karachi",
+    "area": "Malir",
+    "nearby_university": "DHA Suffa University",
+    "gender": "Boys",
+    "rent_pkr": 10500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.3,
+    "id": 35
+  },
+  {
+    "name": "Dow View Hostel",
+    "city": "Karachi",
+    "area": "New Town",
+    "nearby_university": "Dow University",
+    "gender": "Boys",
+    "rent_pkr": 12000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Study Room"
+    ],
+    "rating": 3.9,
+    "id": 36
+  },
+  {
+    "name": "Ocean Breeze Girls Hostel",
+    "city": "Karachi",
+    "area": "DHA",
+    "nearby_university": "SZABIST",
+    "gender": "Girls",
+    "rent_pkr": 23000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Security Guard"
+    ],
+    "rating": 4.5,
+    "id": 37
+  },
+  {
+    "name": "Federal Boys Hostel",
+    "city": "Karachi",
+    "area": "Gulshan",
+    "nearby_university": "Federal Urdu University",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.0,
+    "id": 38
+  },
+  {
+    "name": "Quetta Students Home",
+    "city": "Quetta",
+    "area": "Sariab Road",
+    "nearby_university": "University of Balochistan",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.1,
+    "id": 39
+  },
+  {
+    "name": "Balochistan Girls Hostel",
+    "city": "Quetta",
+    "area": "Jinnah Town",
+    "nearby_university": "BUITEMS",
+    "gender": "Girls",
+    "rent_pkr": 11000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 3.8,
+    "id": 40
+  },
+  {
+    "name": "Hyderabad Boys Hostel",
+    "city": "Hyderabad",
+    "area": "Qasimabad",
+    "nearby_university": "University of Sindh",
+    "gender": "Boys",
+    "rent_pkr": 8000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.2,
+    "id": 41
+  },
+  {
+    "name": "Indus Girls Hostel",
+    "city": "Hyderabad",
+    "area": "Latifabad",
+    "nearby_university": "Mehran University",
+    "gender": "Girls",
+    "rent_pkr": 10500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen",
+      "Security Guard"
+    ],
+    "rating": 3.7,
+    "id": 42
+  },
+  {
+    "name": "Gujranwala Students Hostel",
+    "city": "Gujranwala",
+    "area": "GT Road",
+    "nearby_university": "University of Gujrat",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.3,
+    "id": 43
+  },
+  {
+    "name": "Sialkot Boys Hostel",
+    "city": "Sialkot",
+    "area": "Cantt",
+    "nearby_university": "University of Sialkot",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.6,
+    "id": 44
+  },
+  {
+    "name": "Abbottabad Hill View Hostel",
+    "city": "Abbottabad",
+    "area": "Mandian",
+    "nearby_university": "COMSATS Abbottabad",
+    "gender": "Boys",
+    "rent_pkr": 10000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.0,
+    "id": 45
+  },
+  {
+    "name": "Ayub Girls Hostel",
+    "city": "Abbottabad",
+    "area": "Jinnahabad",
+    "nearby_university": "Women University Abbottabad",
+    "gender": "Girls",
+    "rent_pkr": 9500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler",
+      "Security Guard"
+    ],
+    "rating": 3.8,
+    "id": 46
+  },
+  {
+    "name": "Bahawalpur Students Hostel",
+    "city": "Bahawalpur",
+    "area": "Model Town",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.0,
+    "id": 47
+  },
+  {
+    "name": "Cholistan Girls Hostel",
+    "city": "Bahawalpur",
+    "area": "Satellite Town",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Girls",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen",
+      "Security Guard"
+    ],
+    "rating": 3.5,
+    "id": 48
+  },
+  {
+    "name": "Swat Valley Hostel",
+    "city": "Mingora",
+    "area": "Near University of Swat",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.2,
+    "id": 49
+  },
+  {
+    "name": "Fatima Girls Hostel",
+    "city": "Faisalabad",
+    "area": "Susan Road",
+    "nearby_university": "GC University Faisalabad",
+    "gender": "Girls",
+    "rent_pkr": 9500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 3.7,
+    "id": 50
+  },
+  {
+    "id": 51,
+    "name": "Diamond Boys Hostel",
+    "city": "Islamabad",
+    "area": "Cantt",
+    "nearby_university": "QAU",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 52,
+    "name": "New Horizon Lodge",
+    "city": "Islamabad",
+    "area": "Satellite Town",
+    "nearby_university": "QAU",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 53,
+    "name": "Unity Residency",
+    "city": "Islamabad",
+    "area": "Defence",
+    "nearby_university": "QAU",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": 54,
+    "name": "National Lodge",
+    "city": "Islamabad",
+    "area": "Old Campus Road",
+    "nearby_university": "QAU",
+    "gender": "Boys",
+    "rent_pkr": 11000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 55,
+    "name": "Vision Lodge",
+    "city": "Rawalpindi",
+    "area": "New Town",
+    "nearby_university": "Rawalpindi Medical University",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 56,
+    "name": "Crown Residency",
+    "city": "Rawalpindi",
+    "area": "Bahria Enclave",
+    "nearby_university": "Arid Agriculture University",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": 57,
+    "name": "Sunrise Lodge",
+    "city": "Rawalpindi",
+    "area": "University Road",
+    "nearby_university": "Fauji Foundation University",
+    "gender": "Boys",
+    "rent_pkr": 25500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 58,
+    "name": "Prime Boys Hostel",
+    "city": "Rawalpindi",
+    "area": "Johar Town",
+    "nearby_university": "Rawalpindi Medical University",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 59,
+    "name": "Elite Students Hostel",
+    "city": "Rawalpindi",
+    "area": "Green Town",
+    "nearby_university": "NUML",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 60,
+    "name": "Capital Girls Hostel",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "nearby_university": "FAST-NUCES Lahore",
+    "gender": "Girls",
+    "rent_pkr": 9500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler",
+      "Security Guard"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 61,
+    "name": "Al-Rehman Girls Hostel",
+    "city": "Lahore",
+    "area": "Garden Town",
+    "nearby_university": "Punjab University",
+    "gender": "Girls",
+    "rent_pkr": 13000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Study Room",
+      "Security Guard"
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 62,
+    "name": "Al-Rehman Students Hostel",
+    "city": "Lahore",
+    "area": "Bahria Enclave",
+    "nearby_university": "FAST-NUCES Lahore",
+    "gender": "Boys",
+    "rent_pkr": 11000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 63,
+    "name": "Al-Falah Girls Hostel",
+    "city": "Lahore",
+    "area": "Old Campus Road",
+    "nearby_university": "LUMS",
+    "gender": "Girls",
+    "rent_pkr": 6000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 64,
+    "name": "Diamond Boys Hostel",
+    "city": "Lahore",
+    "area": "Faisal Town",
+    "nearby_university": "Punjab University",
+    "gender": "Boys",
+    "rent_pkr": 9500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 65,
+    "name": "Comfort Girls Hostel",
+    "city": "Karachi",
+    "area": "Wapda Town",
+    "nearby_university": "DHA Suffa University",
+    "gender": "Girls",
+    "rent_pkr": 8000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen",
+      "Security Guard"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 66,
+    "name": "Silver Boys Hostel",
+    "city": "Karachi",
+    "area": "Green Town",
+    "nearby_university": "DHA Suffa University",
+    "gender": "Boys",
+    "rent_pkr": 21500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 67,
+    "name": "National Boys Hostel",
+    "city": "Karachi",
+    "area": "College Road",
+    "nearby_university": "DHA Suffa University",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 68,
+    "name": "Elite Girls Hostel",
+    "city": "Karachi",
+    "area": "Gulshan",
+    "nearby_university": "NED University",
+    "gender": "Girls",
+    "rent_pkr": 20500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": 69,
+    "name": "Metro Girls Hostel",
+    "city": "Peshawar",
+    "area": "Garden Town",
+    "nearby_university": "University of Peshawar",
+    "gender": "Girls",
+    "rent_pkr": 16000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Study Room",
+      "Security Guard"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": 70,
+    "name": "National Lodge",
+    "city": "Peshawar",
+    "area": "Wapda Town",
+    "nearby_university": "CECOS University",
+    "gender": "Boys",
+    "rent_pkr": 15000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 71,
+    "name": "New Horizon Boys Hostel",
+    "city": "Peshawar",
+    "area": "Old Campus Road",
+    "nearby_university": "Islamia College",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 72,
+    "name": "New Horizon Boys Hostel",
+    "city": "Faisalabad",
+    "area": "Cantt",
+    "nearby_university": "NFC IET",
+    "gender": "Boys",
+    "rent_pkr": 13000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 73,
+    "name": "New Horizon Students Hostel",
+    "city": "Faisalabad",
+    "area": "Iqbal Town",
+    "nearby_university": "UAF",
+    "gender": "Boys",
+    "rent_pkr": 15000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 74,
+    "name": "Capital Girls Hostel",
+    "city": "Faisalabad",
+    "area": "University Road",
+    "nearby_university": "UAF",
+    "gender": "Girls",
+    "rent_pkr": 21000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Security Guard"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 75,
+    "name": "Metro Students Hostel",
+    "city": "Multan",
+    "area": "University Road",
+    "nearby_university": "NFC Institute",
+    "gender": "Boys",
+    "rent_pkr": 13000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 76,
+    "name": "Al-Falah Students Hostel",
+    "city": "Multan",
+    "area": "Township",
+    "nearby_university": "NFC Institute",
+    "gender": "Boys",
+    "rent_pkr": 22500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym",
+      "Parking"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 77,
+    "name": "Capital Residency",
+    "city": "Multan",
+    "area": "Cantt",
+    "nearby_university": "Multan Medical & Dental College",
+    "gender": "Boys",
+    "rent_pkr": 15500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Study Room"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": 78,
+    "name": "Star Boys Hostel",
+    "city": "Multan",
+    "area": "Iqbal Town",
+    "nearby_university": "BZU",
+    "gender": "Boys",
+    "rent_pkr": 23500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 79,
+    "name": "Star Girls Hostel",
+    "city": "Multan",
+    "area": "Satellite Town",
+    "nearby_university": "BZU",
+    "gender": "Girls",
+    "rent_pkr": 21500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 80,
+    "name": "Al-Noor Boys Hostel",
+    "city": "Sargodha",
+    "area": "Wapda Town",
+    "nearby_university": "University of Sargodha",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 81,
+    "name": "Crown Girls Hostel",
+    "city": "Sargodha",
+    "area": "Garden Town",
+    "nearby_university": "University of Sargodha",
+    "gender": "Girls",
+    "rent_pkr": 6000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 82,
+    "name": "Elite Boys Hostel",
+    "city": "Sargodha",
+    "area": "Cantt",
+    "nearby_university": "University of Sargodha",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 83,
+    "name": "Crown Residency",
+    "city": "Quetta",
+    "area": "Green Town",
+    "nearby_university": "BUITEMS",
+    "gender": "Boys",
+    "rent_pkr": 23000,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 84,
+    "name": "Star Boys Hostel",
+    "city": "Quetta",
+    "area": "Gulshan",
+    "nearby_university": "University of Balochistan",
+    "gender": "Boys",
+    "rent_pkr": 8000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 85,
+    "name": "Crown Lodge",
+    "city": "Quetta",
+    "area": "Gulshan",
+    "nearby_university": "University of Balochistan",
+    "gender": "Boys",
+    "rent_pkr": 15500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 86,
+    "name": "Al-Rehman Girls Hostel",
+    "city": "Hyderabad",
+    "area": "Model Town",
+    "nearby_university": "University of Sindh",
+    "gender": "Girls",
+    "rent_pkr": 20000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 87,
+    "name": "Prime Girls Hostel",
+    "city": "Hyderabad",
+    "area": "Faisal Town",
+    "nearby_university": "Isra University",
+    "gender": "Girls",
+    "rent_pkr": 25500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Security Guard"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 88,
+    "name": "Royal Students Hostel",
+    "city": "Hyderabad",
+    "area": "Green Town",
+    "nearby_university": "University of Sindh",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 89,
+    "name": "Al-Rehman Girls Hostel",
+    "city": "Hyderabad",
+    "area": "Bahria Enclave",
+    "nearby_university": "University of Sindh",
+    "gender": "Girls",
+    "rent_pkr": 16000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Security Guard"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 90,
+    "name": "Capital Students Hostel",
+    "city": "Hyderabad",
+    "area": "Shalimar",
+    "nearby_university": "Isra University",
+    "gender": "Boys",
+    "rent_pkr": 12500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 91,
+    "name": "Sunrise Lodge",
+    "city": "Gujranwala",
+    "area": "Cantt",
+    "nearby_university": "GIFT University",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 92,
+    "name": "Pearl Girls Hostel",
+    "city": "Gujranwala",
+    "area": "Wapda Town",
+    "nearby_university": "GIFT University",
+    "gender": "Girls",
+    "rent_pkr": 13000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Security Guard"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 93,
+    "name": "Silver Lodge",
+    "city": "Gujranwala",
+    "area": "Old Campus Road",
+    "nearby_university": "University of Gujrat",
+    "gender": "Boys",
+    "rent_pkr": 23500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV"
+    ],
+    "rating": 3.0
+  },
+  {
+    "id": 94,
+    "name": "Silver Boys Hostel",
+    "city": "Sialkot",
+    "area": "College Road",
+    "nearby_university": "University of Sialkot",
+    "gender": "Boys",
+    "rent_pkr": 11500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": 95,
+    "name": "Royal Girls Hostel",
+    "city": "Sialkot",
+    "area": "Faisal Town",
+    "nearby_university": "University of Sialkot",
+    "gender": "Girls",
+    "rent_pkr": 11000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 96,
+    "name": "Al-Madina Lodge",
+    "city": "Sialkot",
+    "area": "Iqbal Town",
+    "nearby_university": "University of Sialkot",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 97,
+    "name": "Vision Residency",
+    "city": "Sialkot",
+    "area": "College Road",
+    "nearby_university": "University of Sialkot",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 98,
+    "name": "New Horizon Students Hostel",
+    "city": "Sialkot",
+    "area": "Iqbal Town",
+    "nearby_university": "University of Sialkot",
+    "gender": "Boys",
+    "rent_pkr": 11000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 99,
+    "name": "Star Students Hostel",
+    "city": "Abbottabad",
+    "area": "Model Town",
+    "nearby_university": "COMSATS Abbottabad",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 100,
+    "name": "National Girls Hostel",
+    "city": "Abbottabad",
+    "area": "Wapda Town",
+    "nearby_university": "Women University Abbottabad",
+    "gender": "Girls",
+    "rent_pkr": 7500,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 101,
+    "name": "Al-Madina Girls Hostel",
+    "city": "Abbottabad",
+    "area": "Civil Lines",
+    "nearby_university": "COMSATS Abbottabad",
+    "gender": "Girls",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 102,
+    "name": "Vision Lodge",
+    "city": "Abbottabad",
+    "area": "Cantt",
+    "nearby_university": "COMSATS Abbottabad",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 103,
+    "name": "Al-Rehman Residency",
+    "city": "Bahawalpur",
+    "area": "Wapda Town",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Boys",
+    "rent_pkr": 9500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 104,
+    "name": "Crown Students Hostel",
+    "city": "Bahawalpur",
+    "area": "Shalimar",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Boys",
+    "rent_pkr": 8000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 105,
+    "name": "Star Students Hostel",
+    "city": "Bahawalpur",
+    "area": "Civil Lines",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Boys",
+    "rent_pkr": 10500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 106,
+    "name": "Prime Girls Hostel",
+    "city": "Bahawalpur",
+    "area": "Garden Town",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Girls",
+    "rent_pkr": 14000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 107,
+    "name": "Metro Boys Hostel",
+    "city": "Bahawalpur",
+    "area": "Bahria Enclave",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Boys",
+    "rent_pkr": 14500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 108,
+    "name": "Al-Rehman Students Hostel",
+    "city": "Mingora",
+    "area": "Old Campus Road",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 19500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Gym"
+    ],
+    "rating": 3.0
+  },
+  {
+    "id": 109,
+    "name": "Silver Lodge",
+    "city": "Mingora",
+    "area": "Township",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 10000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 110,
+    "name": "Comfort Residency",
+    "city": "Mingora",
+    "area": "University Road",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 111,
+    "name": "Comfort Boys Hostel",
+    "city": "Mingora",
+    "area": "Bahria Enclave",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 12500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 112,
+    "name": "Royal Boys Hostel",
+    "city": "Mingora",
+    "area": "Shalimar",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 8000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 113,
+    "name": "Pearl Girls Hostel",
+    "city": "Gilgit",
+    "area": "Green Town",
+    "nearby_university": "Karakoram International University",
+    "gender": "Girls",
+    "rent_pkr": 13000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Security Guard"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 114,
+    "name": "New Horizon Residency",
+    "city": "Gilgit",
+    "area": "Johar Town",
+    "nearby_university": "Karakoram International University",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 115,
+    "name": "Vision Girls Hostel",
+    "city": "Gilgit",
+    "area": "Defence",
+    "nearby_university": "Karakoram International University",
+    "gender": "Girls",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler",
+      "Security Guard"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 116,
+    "name": "Royal Girls Hostel",
+    "city": "Gilgit",
+    "area": "Gulshan",
+    "nearby_university": "Karakoram International University",
+    "gender": "Girls",
+    "rent_pkr": 12500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 117,
+    "name": "Al-Madina Boys Hostel",
+    "city": "Gilgit",
+    "area": "Model Town",
+    "nearby_university": "Karakoram International University",
+    "gender": "Boys",
+    "rent_pkr": 11000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 118,
+    "name": "Silver Students Hostel",
+    "city": "Sukkur",
+    "area": "Iqbal Town",
+    "nearby_university": "Sukkur IBA",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 119,
+    "name": "Al-Madina Students Hostel",
+    "city": "Sukkur",
+    "area": "Model Town",
+    "nearby_university": "Sukkur IBA",
+    "gender": "Boys",
+    "rent_pkr": 13000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 120,
+    "name": "Metro Boys Hostel",
+    "city": "Sukkur",
+    "area": "College Road",
+    "nearby_university": "Sukkur IBA",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 121,
+    "name": "Metro Boys Hostel",
+    "city": "Sukkur",
+    "area": "New Town",
+    "nearby_university": "Sukkur IBA",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 122,
+    "name": "Elite Lodge",
+    "city": "Sukkur",
+    "area": "Township",
+    "nearby_university": "Sukkur IBA",
+    "gender": "Boys",
+    "rent_pkr": 24500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 123,
+    "name": "Vision Students Hostel",
+    "city": "Larkana",
+    "area": "Gulshan",
+    "nearby_university": "Shaheed Mohtarma Benazir Bhutto Medical University",
+    "gender": "Boys",
+    "rent_pkr": 14500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 124,
+    "name": "Al-Madina Lodge",
+    "city": "Larkana",
+    "area": "Cantt",
+    "nearby_university": "Shaheed Mohtarma Benazir Bhutto Medical University",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 125,
+    "name": "Golden Girls Hostel",
+    "city": "Larkana",
+    "area": "University Road",
+    "nearby_university": "Shaheed Mohtarma Benazir Bhutto Medical University",
+    "gender": "Girls",
+    "rent_pkr": 20500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Security Guard"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": 126,
+    "name": "Diamond Lodge",
+    "city": "Larkana",
+    "area": "New Town",
+    "nearby_university": "Shaheed Mohtarma Benazir Bhutto Medical University",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 127,
+    "name": "Prime Girls Hostel",
+    "city": "Mardan",
+    "area": "College Road",
+    "nearby_university": "Abdul Wali Khan University",
+    "gender": "Girls",
+    "rent_pkr": 19000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Security Guard"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 128,
+    "name": "Vision Boys Hostel",
+    "city": "Mardan",
+    "area": "Satellite Town",
+    "nearby_university": "Abdul Wali Khan University",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 129,
+    "name": "Elite Students Hostel",
+    "city": "Mardan",
+    "area": "Cantt",
+    "nearby_university": "Abdul Wali Khan University",
+    "gender": "Boys",
+    "rent_pkr": 12000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 130,
+    "name": "Unity Girls Hostel",
+    "city": "Mardan",
+    "area": "Faisal Town",
+    "nearby_university": "Abdul Wali Khan University",
+    "gender": "Girls",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 131,
+    "name": "Elite Residency",
+    "city": "Kohat",
+    "area": "Township",
+    "nearby_university": "Kohat University of Science & Technology",
+    "gender": "Boys",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 132,
+    "name": "Star Lodge",
+    "city": "Kohat",
+    "area": "University Road",
+    "nearby_university": "Kohat University of Science & Technology",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 133,
+    "name": "Diamond Residency",
+    "city": "Kohat",
+    "area": "Model Town",
+    "nearby_university": "Kohat University of Science & Technology",
+    "gender": "Boys",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 134,
+    "name": "Al-Madina Boys Hostel",
+    "city": "Kohat",
+    "area": "Askari",
+    "nearby_university": "Kohat University of Science & Technology",
+    "gender": "Boys",
+    "rent_pkr": 14500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 135,
+    "name": "Green Girls Hostel",
+    "city": "Kohat",
+    "area": "Model Town",
+    "nearby_university": "Kohat University of Science & Technology",
+    "gender": "Girls",
+    "rent_pkr": 15000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Security Guard"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 136,
+    "name": "Pearl Lodge",
+    "city": "Dera Ghazi Khan",
+    "area": "Bahria Enclave",
+    "nearby_university": "Ghazi University",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 137,
+    "name": "Al-Noor Students Hostel",
+    "city": "Dera Ghazi Khan",
+    "area": "Gulshan",
+    "nearby_university": "Ghazi University",
+    "gender": "Boys",
+    "rent_pkr": 12000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 138,
+    "name": "Capital Boys Hostel",
+    "city": "Dera Ghazi Khan",
+    "area": "College Road",
+    "nearby_university": "Ghazi University",
+    "gender": "Boys",
+    "rent_pkr": 11500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 139,
+    "name": "Capital Boys Hostel",
+    "city": "Sahiwal",
+    "area": "Faisal Town",
+    "nearby_university": "University of Sahiwal",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 140,
+    "name": "Elite Girls Hostel",
+    "city": "Sahiwal",
+    "area": "Old Campus Road",
+    "nearby_university": "University of Sahiwal",
+    "gender": "Girls",
+    "rent_pkr": 16500,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Gym",
+      "Security Guard"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 141,
+    "name": "Comfort Lodge",
+    "city": "Sahiwal",
+    "area": "Bahria Enclave",
+    "nearby_university": "University of Sahiwal",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 142,
+    "name": "Al-Noor Boys Hostel",
+    "city": "Gujrat",
+    "area": "Gulshan",
+    "nearby_university": "University of Gujrat Main Campus",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 143,
+    "name": "Al-Falah Students Hostel",
+    "city": "Gujrat",
+    "area": "Garden Town",
+    "nearby_university": "University of Gujrat Main Campus",
+    "gender": "Boys",
+    "rent_pkr": 14500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Study Room"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 144,
+    "name": "Crown Residency",
+    "city": "Gujrat",
+    "area": "Civil Lines",
+    "nearby_university": "University of Gujrat Main Campus",
+    "gender": "Boys",
+    "rent_pkr": 12000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "Study Room"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 145,
+    "name": "Al-Noor Lodge",
+    "city": "Gujrat",
+    "area": "Wapda Town",
+    "nearby_university": "University of Gujrat Main Campus",
+    "gender": "Boys",
+    "rent_pkr": 23500,
+    "room_type": "Single Room",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV",
+      "Parking"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 146,
+    "name": "Blue Sky Students Hostel",
+    "city": "Rahim Yar Khan",
+    "area": "New Town",
+    "nearby_university": "Ghazi University Sub Campus",
+    "gender": "Boys",
+    "rent_pkr": 18000,
+    "room_type": "Shared (2-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "AC",
+      "Laundry",
+      "CCTV"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 147,
+    "name": "Sunrise Girls Hostel",
+    "city": "Rahim Yar Khan",
+    "area": "Garden Town",
+    "nearby_university": "Ghazi University Sub Campus",
+    "gender": "Girls",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 148,
+    "name": "Vision Boys Hostel",
+    "city": "Rahim Yar Khan",
+    "area": "Civil Lines",
+    "nearby_university": "Ghazi University Sub Campus",
+    "gender": "Boys",
+    "rent_pkr": 8000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "rating": 4.8
+  },
+  {
+    "name": "Sasta Boys Hostel",
+    "city": "Rawalpindi",
+    "area": "Committee Chowk",
+    "nearby_university": "Arid Agriculture University",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "id": 149,
+    "rating": 3.0
+  },
+  {
+    "name": "Insaf Girls Hostel",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "nearby_university": "Arid Agriculture University",
+    "gender": "Girls",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "id": 150,
+    "rating": 3.6
+  },
+  {
+    "name": "Al-Amin Boys Hostel",
+    "city": "Islamabad",
+    "area": "I-10",
+    "nearby_university": "COMSATS University",
+    "gender": "Boys",
+    "rent_pkr": 7000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 151,
+    "rating": 3.5
+  },
+  {
+    "name": "Talib-e-Ilm Hostel",
+    "city": "Islamabad",
+    "area": "G-11",
+    "nearby_university": "FAST-NUCES",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 152,
+    "rating": 3.3
+  },
+  {
+    "name": "Basic Needs Girls Hostel",
+    "city": "Islamabad",
+    "area": "I-8",
+    "nearby_university": "QAU",
+    "gender": "Girls",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen",
+      "Security Guard"
+    ],
+    "id": 153,
+    "rating": 3.0
+  },
+  {
+    "name": "Roshan Boys Hostel",
+    "city": "Lahore",
+    "area": "Baghbanpura",
+    "nearby_university": "UET Lahore",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 154,
+    "rating": 3.7
+  },
+  {
+    "name": "Gareeb Nawaz Hostel",
+    "city": "Lahore",
+    "area": "Misri Shah",
+    "nearby_university": "Punjab University",
+    "gender": "Boys",
+    "rent_pkr": 5500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 155,
+    "rating": 3.7
+  },
+  {
+    "name": "Sadaqat Girls Hostel",
+    "city": "Lahore",
+    "area": "Samanabad",
+    "nearby_university": "GC University Lahore",
+    "gender": "Girls",
+    "rent_pkr": 8500,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "id": 156,
+    "rating": 3.4
+  },
+  {
+    "name": "Awami Boys Hostel",
+    "city": "Karachi",
+    "area": "Landhi",
+    "nearby_university": "NED University",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 157,
+    "rating": 3.4
+  },
+  {
+    "name": "Sindhi Students Hostel",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "nearby_university": "Karachi University",
+    "gender": "Boys",
+    "rent_pkr": 7500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 158,
+    "rating": 3.1
+  },
+  {
+    "name": "Baji Girls Hostel",
+    "city": "Karachi",
+    "area": "North Nazimabad",
+    "nearby_university": "Federal Urdu University",
+    "gender": "Girls",
+    "rent_pkr": 9000,
+    "room_type": "Shared (3-bed)",
+    "facilities": [
+      "WiFi",
+      "Mess",
+      "Fan",
+      "Common Kitchen",
+      "Security Guard"
+    ],
+    "id": 159,
+    "rating": 2.8
+  },
+  {
+    "name": "Falak Boys Hostel",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "nearby_university": "University of Peshawar",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 160,
+    "rating": 3.2
+  },
+  {
+    "name": "Sarhad Girls Hostel",
+    "city": "Peshawar",
+    "area": "University Road",
+    "nearby_university": "Islamia College",
+    "gender": "Girls",
+    "rent_pkr": 8000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Common Kitchen",
+      "Security Guard"
+    ],
+    "id": 161,
+    "rating": 3.4
+  },
+  {
+    "name": "Kissan Boys Hostel",
+    "city": "Faisalabad",
+    "area": "Susan Road",
+    "nearby_university": "UAF",
+    "gender": "Boys",
+    "rent_pkr": 5500,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 162,
+    "rating": 2.9
+  },
+  {
+    "name": "Rozi Boys Hostel",
+    "city": "Multan",
+    "area": "Bosan Road",
+    "nearby_university": "BZU",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 163,
+    "rating": 3.7
+  },
+  {
+    "name": "Sargodha Sasta Hostel",
+    "city": "Sargodha",
+    "area": "University Road",
+    "nearby_university": "University of Sargodha",
+    "gender": "Boys",
+    "rent_pkr": 5500,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 164,
+    "rating": 3.1
+  },
+  {
+    "name": "Balochi Boys Hostel",
+    "city": "Quetta",
+    "area": "Sariab Road",
+    "nearby_university": "University of Balochistan",
+    "gender": "Boys",
+    "rent_pkr": 5000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "id": 165,
+    "rating": 3.1
+  },
+  {
+    "name": "Sindh Girls Hostel",
+    "city": "Hyderabad",
+    "area": "Latifabad",
+    "nearby_university": "University of Sindh",
+    "gender": "Girls",
+    "rent_pkr": 8000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Security Guard"
+    ],
+    "id": 166,
+    "rating": 2.8
+  },
+  {
+    "name": "GT Road Boys Hostel",
+    "city": "Gujranwala",
+    "area": "GT Road",
+    "nearby_university": "University of Gujrat",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (5-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 167,
+    "rating": 3.9
+  },
+  {
+    "name": "Sialkoti Boys Hostel",
+    "city": "Sialkot",
+    "area": "Cantt",
+    "nearby_university": "University of Sialkot",
+    "gender": "Boys",
+    "rent_pkr": 6500,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "id": 168,
+    "rating": 3.6
+  },
+  {
+    "name": "Hazara Boys Hostel",
+    "city": "Abbottabad",
+    "area": "Mandian",
+    "nearby_university": "COMSATS Abbottabad",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 169,
+    "rating": 3.8
+  },
+  {
+    "name": "Cholistan Boys Hostel",
+    "city": "Bahawalpur",
+    "area": "Model Town",
+    "nearby_university": "Islamia University Bahawalpur",
+    "gender": "Boys",
+    "rent_pkr": 5500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 170,
+    "rating": 3.5
+  },
+  {
+    "name": "Swati Boys Hostel",
+    "city": "Mingora",
+    "area": "University Road",
+    "nearby_university": "University of Swat",
+    "gender": "Boys",
+    "rent_pkr": 5000,
+    "room_type": "Shared (4-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "id": 171,
+    "rating": 2.8
+  },
+  {
+    "name": "Sukkur Sasta Hostel",
+    "city": "Sukkur",
+    "area": "Near Sukkur IBA",
+    "nearby_university": "Sukkur IBA",
+    "gender": "Boys",
+    "rent_pkr": 6000,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan",
+      "Water Cooler"
+    ],
+    "id": 172,
+    "rating": 3.2
+  },
+  {
+    "name": "Mardan Boys Hostel",
+    "city": "Mardan",
+    "area": "University Road",
+    "nearby_university": "Abdul Wali Khan University",
+    "gender": "Boys",
+    "rent_pkr": 5500,
+    "room_type": "Shared (6-bed)",
+    "facilities": [
+      "Mess",
+      "Fan"
+    ],
+    "id": 173,
+    "rating": 3.3
+  }
+]
+
+
