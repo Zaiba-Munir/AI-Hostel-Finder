@@ -358,16 +358,46 @@ const VOICE_STRINGS = {
 /* ============================================================
    "AI" NATURAL LANGUAGE INTERPRETER
    ============================================================ */
+// Maps common Urdu-script city names (as Speech Recognition may transcribe
+// them) to the exact English city name used in HOSTELS.
+const URDU_CITY_MAP = {
+  "راولپنڈی": "Rawalpindi",
+  "اسلام آباد": "Islamabad",
+  "اسلام اباد": "Islamabad",
+  "لاہور": "Lahore",
+  "کراچی": "Karachi",
+  "پشاور": "Peshawar",
+  "فیصل آباد": "Faisalabad",
+  "فیصل اباد": "Faisalabad",
+  "ملتان": "Multan",
+  "سرگودھا": "Sargodha",
+  "کوئٹہ": "Quetta",
+  "حیدرآباد": "Hyderabad",
+  "گوجرانوالہ": "Gujranwala",
+  "سیالکوٹ": "Sialkot",
+  "ایبٹ آباد": "Abbottabad",
+  "بہاولپور": "Bahawalpur",
+  "مینگورہ": "Mingora",
+  "گلگت": "Gilgit",
+  "سکھر": "Sukkur",
+  "لاڑکانہ": "Larkana",
+  "مردان": "Mardan",
+  "کوہاٹ": "Kohat",
+  "ساہیوال": "Sahiwal",
+  "گوجرات": "Gujrat",
+  "رحیم یار خان": "Rahim Yar Khan"
+};
+
 function parseQuery(rawQuery) {
   const q = rawQuery.toLowerCase();
   // Remove commas from numbers so "15,000" is read the same as "15000".
   const qNoCommas = q.replace(/(\d),(\d{3})/g, "$1$2");
   const intent = { budget: null, city: null, gender: null, university: null, facilities: [] };
 
-  const budgetMatch = qNoCommas.match(/(\d{2,3})\s*k\b/) || qNoCommas.match(/(\d{4,6})/);
+  const budgetMatch = qNoCommas.match(/(\d{2,3})\s*k\b/) || qNoCommas.match(/(\d{2,3})\s*ہزار/) || qNoCommas.match(/(\d{4,6})/);
   if (budgetMatch) {
     let num = parseInt(budgetMatch[1], 10);
-    if (q.includes("k") && num < 1000) num *= 1000;
+    if ((q.includes("k") || q.includes("ہزار")) && num < 1000) num *= 1000;
     intent.budget = num;
   }
 
@@ -384,10 +414,22 @@ function parseQuery(rawQuery) {
       intent.city = city;
     }
   }
+  // Also check Urdu-script city names (voice input often transcribes proper
+  // nouns like city names in Urdu script rather than Latin).
+  for (const urduName in URDU_CITY_MAP) {
+    const idx = rawQuery.lastIndexOf(urduName);
+    if (idx !== -1 && idx > bestCityIndex) {
+      bestCityIndex = idx;
+      intent.city = URDU_CITY_MAP[urduName];
+    }
+  }
 
   // English + Roman Urdu gender words
   if (/\b(boys?|male|larka|larke|larkay|larkon|mard|bachay|bachy|bachon)\b/.test(q)) intent.gender = "Boys";
   if (/\b(girls?|female|larki|larkiyan|larkiyaan|larkiyon|aurat|khawateen|bachi|bachiyan|bachiyaan|bachiyon|bachion|bachiun)\b/.test(q)) intent.gender = "Girls";
+  // Urdu-script gender words
+  if (/لڑک[اوں]|لڑکے|مرد|بچے|بچوں/.test(rawQuery)) intent.gender = "Boys";
+  if (/لڑکی|لڑکیوں|لڑکیاں|عورت|خواتین|بچی|بچیوں/.test(rawQuery)) intent.gender = "Girls";
 
   const universities = [...new Set(HOSTELS.map(h => h.nearby_university))];
   for (const uni of universities) {
@@ -415,19 +457,19 @@ function scoreHostel(hostel, intent) {
 
 /* ============================================================
    REAL AI-POWERED QUERY UNDERSTANDING (via our own backend)
-   Replaces the plain rule-based parseQuery() above with a real
-   LLM call, but routed through our own small backend server
-   (server.js) instead of calling Groq directly from the browser.
-   This keeps the Groq API key hidden on the server and out of
-   the public GitHub repo. If the backend is unreachable for any
-   reason (not started, wrong port, offline), this silently falls
-   back to the rule-based parseQuery() so the app never breaks.
+   The frontend never talks to Groq directly — it calls our own
+   backend server (server.js), which holds the real Groq key in
+   a .env file that never reaches the browser or GitHub. If the
+   backend isn't running, or the call fails for any reason, this
+   silently falls back to the rule-based parseQuery() so the app
+   never breaks in a demo.
    ============================================================ */
 
-// Address of our own local backend server (see backend/server.js).
-// When you deploy this app for real, change this to your deployed
-// backend's URL instead of localhost.
+// Your backend is now deployed for real on Railway, so it's called from
+// anywhere (not just localhost). The try/catch below still falls back to
+// the rule-based parser if the backend is ever down or slow.
 const BACKEND_URL = "https://ai-hostel-finder-production.up.railway.app/api/parse-query";
+
 async function parseQueryWithAI(rawQuery) {
   try {
     const cityList = [...new Set(HOSTELS.map(h => h.city))].join(", ");
@@ -442,6 +484,7 @@ async function parseQueryWithAI(rawQuery) {
     if (!response.ok) throw new Error("Backend error " + response.status);
 
     const parsed = await response.json();
+    if (parsed.error) throw new Error(parsed.error);
 
     return {
       budget: parsed.budget || null,
@@ -451,7 +494,7 @@ async function parseQueryWithAI(rawQuery) {
       facilities: Array.isArray(parsed.facilities) ? parsed.facilities : []
     };
   } catch (err) {
-    console.warn("AI query parsing failed (backend not running?), falling back to rule-based search:", err);
+    console.warn("Backend/AI call failed, falling back to rule-based search:", err);
     return parseQuery(rawQuery); // backend not running, network issue, etc. — fail safe, not broken
   }
 }
@@ -499,6 +542,9 @@ function getFilteredResults() {
     if (intent.gender) {
       list = list.filter(h => h.gender === intent.gender);
     }
+    if (intent.city) {
+      list = list.filter(h => h.city === intent.city);
+    }
     list = list
       .map(h => ({ hostel: h, score: scoreHostel(h, intent) }))
       .filter(entry => entry.score > 0)
@@ -534,10 +580,10 @@ function showLoadingThenRender() {
   gridEl.innerHTML = Array.from({ length: 3 }).map(() => '<div class="skeleton-card"></div>').join("");
 }
 
-// Runs a full natural-language search: shows a loading state, asks our
-// backend (or falls back to the rule-based parser) to understand the
-// query, then renders. Filter/sort dropdown changes do NOT call this —
-// they reuse activeIntent and re-render instantly.
+// Runs a full natural-language search: shows a loading state, asks Claude
+// (or falls back to the rule-based parser) to understand the query, then
+// renders. Filter/sort dropdown changes do NOT call this — they reuse
+// activeIntent and re-render instantly.
 async function runSearch(queryText) {
   activeQuery = queryText;
   currentLang = detectLanguage(queryText);
@@ -749,9 +795,12 @@ function setupVoiceSearch() {
   recognition.continuous = false;
   recognition.interimResults = false;
   recognition.maxAlternatives = 1;
-  // 'ur-PK' understands both Urdu speech and most Pakistani-accented
-  // English/Roman-Urdu speech reasonably well in Chrome.
-  recognition.lang = "ur-PK";
+  // Web Speech API can't auto-detect the spoken language mid-session — it
+  // must be told a language before it starts listening. We use 'en-US'
+  // universally: English speech transcribes correctly, and Urdu speech
+  // typically comes out phonetically in Roman letters (Roman Urdu), which
+  // detectLanguage()/parseQuery() below already understand and handle.
+  recognition.lang = "en-US";
 
   recognition.addEventListener("start", () => {
     isListening = true;
