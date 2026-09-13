@@ -427,7 +427,7 @@ function scoreHostel(hostel, intent) {
 // Address of our own local backend server (see backend/server.js).
 // When you deploy this app for real, change this to your deployed
 // backend's URL instead of localhost.
-const BACKEND_URL = "https://ai-hostel-finder-production.up.railway.app/api/parse-query";
+const BACKEND_URL = "ai-hostel-finder-production.up.railway.app";
 
 async function parseQueryWithAI(rawQuery) {
   try {
