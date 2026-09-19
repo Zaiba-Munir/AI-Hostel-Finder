@@ -11,7 +11,6 @@ Built for: Pak Angels Generative & Agentic AI Training, Cohort 11 Mid-Term Hacka
 | Live App (GitHub Pages) | [zaiba-munir.github.io/AI-Hostel-Finder](https://zaiba-munir.github.io/AI-Hostel-Finder/) |
 | Live App (Streamlit) | [ai-hostel-finder-ghsqbvxptb8a7hxafxnohr.streamlit.app](https://ai-hostel-finder-ghsqbvxptb8a7hxafxnohr.streamlit.app/) |
 | Source Code | [github.com/zaiba-munir/AI-Hostel-Finder](https://github.com/zaiba-munir/AI-Hostel-Finder) |
-| Railway Deployment | [ai-hostel-finder-production.up.railway.app](https://ai-hostel-finder-production.up.railway.app/) |
 
 ## 📸 Screenshots
 
