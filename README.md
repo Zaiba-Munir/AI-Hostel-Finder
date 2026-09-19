@@ -16,13 +16,13 @@ Built for: Pak Angels Generative & Agentic AI Training, Cohort 11 Mid-Term Hacka
 ## 📸 Screenshots
 
 **Homepage, natural language search + quick filters**
-![Homepage](homepage.png)
+![Homepage](screenshot/homepage.png)
 
 **Search results, matched to a natural language query**
-![Search Results](search-results.png)
+![Search Results](screenshot/search-results.png)
 
 **Hostel details with facilities and WhatsApp contact**
-![Hostel Details](hostel-details.png)
+ ![Hostel Details](screenshot/hostel-details.png) 
 
 ## 👥 Team
 
